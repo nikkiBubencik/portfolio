@@ -97,7 +97,8 @@
                 <?php if (isset($courses) && !empty($courses)): ?>
                     <?php foreach ($courses as $course): ?>
                         <h2><?php echo htmlspecialchars($course['courseName']); ?></h2>
-                        <h4><?php echo htmlspecialchars($course['courseID']); ?></h4>
+                        <h4><?php echo htmlspecialchars($course['school']); ?></h4>
+		    	<h4><?php echo htmlspecialchars($course['courseID']); ?></h4>
                         <p><?php echo htmlspecialchars($course['description']); ?></p>
                     <?php endforeach; ?>
                 <?php else: ?>
