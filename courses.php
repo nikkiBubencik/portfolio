@@ -64,7 +64,7 @@
     <div class="logo">Nicole Bubencik</div>
     <nav>
         <ul>
-            <li><a href="portfolio_index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="courses.php">Courses</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="projects.html">Projects</a></li>
